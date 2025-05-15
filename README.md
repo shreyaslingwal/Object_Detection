@@ -1,7 +1,7 @@
 # Object_Detection using YOLOV8
 This project implements a real-time object detection system using the YOLOv8 model from the Ultralytics library. It captures video frames from a webcam, processes each frame through the YOLOv8 model to detect objects, and then displays the video feed with bounding boxes and labels indicating the detected objects along with their confidence scores. The project uses the OpenCV library for video capture and display, and cvzone to enhance the visual presentation of the bounding boxes with corner rectangles and text labels.
 
-The YOLOv8 model used is pre-trained on the COCO dataset, which includes 80 common object classes such as person, car, dog, laptop, and many others. An additional class, "earbuds," has also been included, which can be used for custom detection purposes if the model is trained accordingly.
+The YOLOv8 model used is pre-trained on the COCO dataset, which includes 80 common object classes such as person, car, dog, laptop, and many others. 
 
 Different versions of YOLOv8 model weights are available to suit various needs and hardware capabilities. These include nano (yolov8n), small (yolov8s), medium (yolov8m), large (yolov8l), and extra-large (yolov8x). The nano version is optimized for speed and low resource consumption, suitable for edge devices, while the large and extra-large models provide higher accuracy at the cost of increased computational requirements. Users can select the desired model by changing the weight file loaded in the code.
 
